@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(21, 54, 36);
+    font-family: monospace;
+  }
+.heading1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: black;
+    background-image: url("https://attackofthefanboy.com/wp-content/uploads/2018/10/red-dead-redemption-2-map-piece.jpg");
+}
+
+.heading2 {
+    text-align: center;
+    color: black;
+    background-image: url("https://attackofthefanboy.com/wp-content/uploads/2018/10/red-dead-redemption-2-map-piece.jpg");
+}
+
+
+.fade {
+  opacity: 0.5;
+}
+.fade:hover {
+  opacity: 1.0;
+}
+.text1 {
+    color: black;
+    background-color: rgb(155, 142, 87);
+    font-family: monospace;
+    font-weight: 100;
+    font-style: normal;
+    font-size: large;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+.container1 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #333;
+  }
+
+.container1 > div {
+    display: block;
+    background-color: greenyellow;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+.container2 {
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-gap: 2px;
+}
+
+.container2 > div {
+    margin: auto auto;
+  }
+
+.container3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2px;
+  }
+.container2 > div {
+    margin: auto auto auto;
+  }
+
+.row:after {
+    clear: both;
+  }
+.photo {
+    width: 90%;
+}
+
+h4 {
+    background-color: rgb(155, 142, 87);
+    color: black;
+    width: 100%;
+    float: center;
+  }
+
+.quote {
+    font-size: large;
+    float: center;
+    text-align: center;
+    background-color: rgb(46, 58, 124);
+    width: 100%;
+    padding: 20px;
+    border: 10px;
+    margin: 5px;
+}
+
+.link {
+  font-size: large;
+  float: center;
+  text-align: center;
+  background-color: rgb(138, 140, 141);
+  width: 90%;
+  padding: 20px;
+}
+
